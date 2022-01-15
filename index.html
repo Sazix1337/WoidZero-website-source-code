@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en" class="theme-dark">
+    <head>
+        <meta charset="utf-8">
+        <meta name="theme-color" content="#ffffff">
+        <meta name="description" content="Welcome!">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
+        <link rel="stylesheet" href="assets/ui.css">
+        <link rel="shortcut icon" href="assets/favicon.png">
+        <title>woid</title>
+    </head>
+    <body>
+        <header>
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li><a href="#" class="is-active"><span>Home</span></a></li>
+                    <li><a href="#projects"><span>Projects</span></a></li>
+                    <li><a href="#contact"><span>Contact</span></a></li>
+                </ul>
+            </nav>
+            <figure><img class="logo" id="logo" src="assets/logo.png"></figure>
+            <nav class="navbar right">
+                <ul>
+                    <li><a href="https://github.com/WoidZero/Website"><span>Code</span></a></li>
+                    <li>
+                        <label id="switcher">
+                            <input type="checkbox" onchange="toggleTheme()" id="slider" />
+                            <span id="themeIcon" class="material-icons">light_mode</span>
+                        </label>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+
+        <!--= Main Page =-->
+        <section id="container">
+            <h1 class="title">Welcome</h1>
+            <h6 class="info">Im programmer on PHP, Python, JS, C# & UI, GFX Designer. </h6>
+            <div id="image_box">
+                <img onclick="alert('im not furry i think u need to know it')" class="img" src="assets/favicon.png">
+            </div>
+        </section>
+
+        <!--= Projects =-->
+        <section id="projects">
+            <div class="slider__warpper">
+                <!--= Project - Owin =-->
+                <div class="flex__container flex--project flex--active" data-slide="1">
+                <div class="flex__item flex__item--left">
+
+                    <div class="flex__content">
+                        <p class="text--sub">Projects</p>
+                        <h6 class="text--info">My current developerming or finished projects. </h6>
+                        <h1 class="text--big">Owin</h1>
+                        <p class="text--normal">Multiparadigm programming language written in JavaScript (in the developerming).</p>
+                        <a class="item--icon" href="https://owin.woidzero.xyz"><span class="material-icons">open_in_new</span></a>
+                        <a class="item--icon" href="https://github.com/Iotive-Studios/owin/blob/main/README.md"><span class="material-icons">article</span></a>
+                        <a class="item--icon" href="https://github.com/Iotive-Studios/owin"><span class="material-icons">code</span></a>
+                    </div>
+
+                    <p class="text__background">Owin</p>
+                </div>
+                <div class="flex__item flex__item--right"></div>
+                <img class="project_logo" src="assets/owin.png" />
+                </div>
+
+                <!--= Project - IoCore =-->
+                <div class="flex__container flex--project animate--start" data-slide="2">
+                <div class="flex__item flex__item--left">
+
+                    <div class="flex__content">
+                        <p class="text--sub">Projects</p>
+                        <h6 class="text--info">My current developerming or finished projects. </h6>
+                        <h1 class="text--big">IoCore</h1>
+                        <p class="text--normal">Geometry Dash Private Server core with new features as better security, auto creator points and more.</p>
+                        <a class="item--icon" href="https://woidzero.xyz/iocore"><span class="material-icons">open_in_new</span></a>
+                        <a class="item--icon" href="https://woidzero.xyz/article/iocore"><span class="material-icons">article</span></a>
+                        <a class="item--icon" href="https://github.com/WoidZero/IoCore"><span class="material-icons">code</span></a>
+                    </div>
+
+                    <p class="text__background">IoCore</p>
+                </div>
+                <div class="flex__item flex__item--right"></div>
+                <img class="project_logo" src="assets/iocore.png" />
+                </div>
+
+                <!--= Project - xyzApi =-->
+                <div class="flex__container flex--project animate--start" data-slide="3">
+                <div class="flex__item flex__item--left">
+
+                    <div class="flex__content">
+                        <p class="text--sub">Projects</p>
+                        <h6 class="text--info">My current developerming or finished projects. </h6>
+                        <h1 class="text--big">xyzApi</h1>
+                        <p class="text--normal">Open source and free API's collection includes images, text's, checkers api's.</p>
+                        <a class="item--icon" href="https://api.woidzero.xyz/"><span class="material-icons">open_in_new</span></a>
+                        <a class="item--icon" href="https://api.woidzero.xyz/about"><span class="material-icons">article</span></a>
+                        <a class="item--icon" href="https://github.com/WoidZero/xyzApi"><span class="material-icons">code</span></a>
+                    </div>                    
+
+                    <p class="text__background">xyzApi</p>
+                </div>
+                <div class="flex__item flex__item--right"></div>
+                <img class="project_logo" src="assets/woidapi.png" />
+                </div>
+              
+            <div class="slider__navi">
+                  <a href="#project" class="slide-nav active" data-slide="1">Owin</a>
+                  <a href="#project" class="slide-nav" data-slide="2">IoCore</a>
+                  <a href="#project" class="slide-nav" data-slide="3">xyzApi</a>
+            </div>        
+            <section id="contact">
+                <h1 class="title">Contact me</h1>
+                <h6 >My social networks where you can contact me or follow.</h6>
+                <a href="https://github.com/WoidZero"><i class="fab fa-github"></i></a>
+                <a href="https://www.youtube.com/channel/UCy3p27Vrn1WLT3Wf1cUsqeg"><i class="fab fa-youtube"></i></a>
+                <a href="https://discord.com/users/742079379265552515"><i class="fab fa-discord"></i></a>
+                <a href="https://t.me/WoidZero"><i class="fab fa-telegram"></i></a>
+                <a href="https://instagram.com/WoidZero"><i class="fab fa-instagram"></i></a>
+                <a href="https://vk.com/woidzero"><i class="fab fa-vk"></i></a>
+                <footer><p>Made by woid.</p></footer>
+            </section>
+        </section>            
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="assets/themeSwitch.js"></script>
+        <script src="assets/sliders.js"></script>
+    </body>
+</html>
